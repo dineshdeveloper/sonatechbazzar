@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!-- Title here -->
+		<title>Welcome to Sona Tech Bazzar - Dinesh Intiative Company</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Sona Tech Bazzar">
+		<meta name="keywords" content="Cloud based E-Commerce Site">
+		<meta name="author" content="Dinesh Sona College of Technology">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Dropdown menu -->
+		<link href="css/ddlevelsmenu-base.css" rel="stylesheet">
+		<link href="css/ddlevelsmenu-topbar.css" rel="stylesheet">
+		
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">		
+		
+		<!-- Site CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="#">
+	</head>
+	
+	<body>
+
+      <!-- Shopping cart Modal -->
+     <div class="modal fade" id="shoppingcart" tabindex="-1" role="dialog" aria-hidden="true">
+       <div class="modal-dialog">
+         <div class="modal-content">
+           <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+             <h4 class="modal-title">Shopping Cart</h4>
+           </div>
+           <div class="modal-body">
+           
+            <!-- Items table -->
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Quantity</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a>HTC One</a></td>
+                  <td>2</td>
+                  <td>Rs 32000</td>
+                </tr>
+                <tr>
+                  <td><a >Apple iPhone</a></td>
+                  <td>1</td>
+                  <td>Rs 50000</td>
+                </tr>
+                <tr>
+                  <td><a >Galaxy Note</a></td>
+                  <td>4</td>
+                  <td>Rs 1303</td>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th>Total</th>
+                  <th>Rs 2405</th>
+                </tr>
+              </tbody>
+            </table>
+            
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">Continue Shopping</button>
+             <button type="button" class="btn btn-info">Checkout</button>
+           </div>
+         </div><!-- /.modal-content -->
+       </div><!-- /.modal-dialog -->
+     </div><!-- /.modal -->
+           
+		<!-- Logo & Navigation starts -->
+      
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-sm-2">
+					  <!-- Logo -->
+					  <div class="logo">
+						 <h1><a href="index.html">SonaBazzar</a></h1>
+					  </div>
+				   </div>
+					<div class="col-md-6 col-sm-5">
+						<!-- Navigation menu -->
+						<div class="navi">
+							<div id="ddtopmenubar" class="mattblackmenu">
+								<ul>
+									<li><a href="#" rel="ddsubmenu1">Home</a>
+										<ul id="ddsubmenu1" class="ddsubmenustyle">
+											<li><a >About Us</a></li>
+										</ul>
+									</li>
+									<li><a href="#" rel="ddsubmenu1">Account</a>
+										<ul id="ddsubmenu1" class="ddsubmenustyle">
+											<li><a >My Account</a></li>
+											<li><a >View Cart</a></li>
+											<li><a >Checkout</a></li>
+											<li><a >Wish List</a></li>
+											<li><a >Order History</a></li>
+											<li><a >Edit Profile</a></li>
+											<li><a >Confirmation</a></li>
+										</ul>
+									</li>
+									<li><a href="#" rel="ddsubmenu1">Pages</a>
+										<ul id="ddsubmenu1" class="ddsubmenustyle">
+											<li><a >Blog</a></li>
+											<li><a >Careers</a></li>
+											<li><a >Coming Soon</a></li>
+											<li><a >Support</a></li>
+											<li><a >About</a></li>
+										</ul>
+									</li>
+									<li><a href="#" rel="ddsubmenu1">Computers</a>
+										<ul id="ddsubmenu1" class="ddsubmenustyle">
+											<li><a>Desktop</a></li>
+											<li><a>Laptop</a></li>
+											<li><a>NetBook</a></li>
+											<li><a>Servers</a></li>
+										</ul>
+									</li>                       
+									<li><a >Contact</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- Dropdown NavBar -->
+						<div class="navis"></div>                   
+					</div>
+					<div class="col-md-4 col-sm-5">
+						<div class="kart-links">
+							<a >Login</a> 
+							<a >Signup</a>
+							<a data-toggle="modal" href="#shoppingcart"><i class="fa fa-shopping-cart"></i> 3 Items - Rs 300</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+      
+      <!-- Logo & Navigation ends -->
+      
+		<div class="clearfix"></div>
+      
+	
+		
+		<!-- Hero starts -->
+      
+		  <div class="hero">
+			 <div class="container">
+				<div class="row">
+				   <div class="col-md-12">
+					  <!-- Catchy title -->
+					  <h3>It<span class="color">'</span>Sona College of Technology<span class="color">|</span> Bazzar for everything</h3>
+					  <p>Sona Bazzar offers an wide varety of Electronic products including world famous brangs and having flexible, secured payment mode.</p>
+				   </div>
+				</div>
+			  <div class="sep-bor"></div>
+			 </div>
+		  </div>
+      
+      <!-- Hero ends -->  
+      
+      <!-- Items List starts -->
+
+      <div class="shop-items blocky">
+        <div class="container">
+          
+         <div class="row">
+            <!-- Item #1 -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="item">
+                <!-- Use the below link to put HOT icon -->
+                
+                <!-- Item image -->
+                <div class="item-image">
+                  <a ><img src="img/items/2.png" alt="" class="img-responsive"/></a>
+                </div>
+                <!-- Item details -->
+                <div class="item-details">
+                  <!-- Name -->
+                  <h5><a >HTC One V</a></h5>
+                  <div class="clearfix"></div>
+                  <!-- Para. Note more than 2 lines. -->
+                  <p> These cool products were made by creative minds.</p>
+                  <hr />
+                  <!-- Price -->
+                  <div class="item-price pull-left">Rs 360</div>
+                  <!-- Add to cart -->
+                  <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item #2 -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="item">
+                <!-- Item image -->
+                <div class="item-image">
+                  <a ><img src="img/items/3.png" alt=""  class="img-responsive"/></a>
+                </div>
+                <!-- Item details -->
+                <div class="item-details">
+                  <!-- Name -->
+                  <h5><a >Dell One V</a></h5>
+                  <!-- Para. Note more than 2 lines. -->
+                  <p> These cool products were made by creative minds.</p>
+                  <hr />
+                  <!-- Price -->
+                  <div class="item-price pull-left">Rs 264</div>
+                  <!-- Add to cart -->
+                  <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>  
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="item">
+                <!-- Item image -->
+                <div class="item-image">
+                  <a><img src="img/items/4.png" alt="" class="img-responsive" /></a>
+                </div>
+                <!-- Item details -->
+                <div class="item-details">
+                  <!-- Name -->
+                  <h5><a >Cannon One V</a></h5>
+                  <!-- Para. Note more than 2 lines. -->
+                  <p> These cool products were made by creative minds.</p>
+                  <hr />
+                  <!-- Price -->
+                  <div class="item-price pull-left">Rs 160</div>
+                  <!-- Add to cart -->
+                  <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="item">
+                <!-- Item image -->
+                <div class="item-image">
+                  <a ><img src="img/items/5.png" alt=""  class="img-responsive"/></a>
+                </div>
+                <!-- Item details -->
+                <div class="item-details">
+                  <!-- Name -->
+                  <h5><a >Apple One V</a></h5>
+                  <!-- Para. Note more than 2 lines. -->
+                  <p> These cool products were made by creative minds.</p>
+                  <hr />
+                  <!-- Price -->
+                  <div class="item-price pull-left">Rs 420</div>
+                  <!-- Add to cart -->
+                  <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="item">
+
+                <!-- Item image -->
+                <div class="item-image">
+                  <a ><img src="img/items/6.png" alt=""  class="img-responsive"/></a>
+                </div>
+                <!-- Item details -->
+                <div class="item-details">
+                  <!-- Name -->
+                  <h5><a >Samsung One V</a></h5>
+                  <!-- Para. Note more than 2 lines. -->
+                  <p> These cool products were made by creative minds.</p>
+                  <hr />
+                  <!-- Price -->
+                  <div class="item-price pull-left">Rs 300</div>
+                  <!-- Add to cart -->
+                  <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="item">
+               
+                <!-- Item image -->
+                <div class="item-image">
+                  <a ><img src="img/items/7.png" alt=""  class="img-responsive"/></a>
+                </div>
+                <!-- Item details -->
+                <div class="item-details">
+                  <!-- Name -->
+                  <h5><a >Micromax One V</a></h5>
+                  <!-- Para. Note more than 2 lines. -->
+                  <p> These cool products were made by creative minds.</p>
+                  <hr />
+                  <!-- Price -->
+                  <div class="item-price pull-left">Rs 240</div>
+                  <!-- Add to cart -->
+                  <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="item">
+                <!-- Item image -->
+                <div class="item-image">
+                  <a ><img src="img/items/8.png" alt=""  class="img-responsive"/></a>
+                </div>
+                <!-- Item details -->
+                <div class="item-details">
+                  <!-- Name -->
+                  <h5><a >Nokia One V</a></h5>
+                  <!-- Para. Note more than 2 lines. -->
+                  <p> These cool products were made by creative minds.</p>
+                  <hr />
+                  <!-- Price -->
+                  <div class="item-price pull-left">Rs 50</div>
+                  <!-- Add to cart -->
+                  <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="item">
+                <!-- Item image -->
+                <div class="item-image">
+                  <a ><img src="img/items/9.png" alt=""  class="img-responsive"/></a>
+                </div>
+                <!-- Item details -->
+                <div class="item-details">
+                  <!-- Name -->
+                  <h5><a >Sony One V</a></h5>
+                  <!-- Para. Note more than 2 lines. -->
+                  <p> These cool products were made by creative minds.</p>
+                  <hr />
+                  <!-- Price -->
+                  <div class="item-price pull-left">Rs 100</div>
+                  <!-- Add to cart -->
+                  <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>                                                                      
+
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- Recent posts Starts -->
+	
+      <div class="recent-posts blocky">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <!-- Section title -->
+                  <div class="section-title">
+                     <h4><i class="fa fa-desktop color"></i> &nbsp;Whats New</h4>
+                  </div>    
+                  
+				  <div id="item-carousel" class="carousel slide" data-ride="carousel">
+							
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<div class="row">
+								<div class="col-md-3 col-sm-6">
+									<!-- single item -->
+									<div class="s-item">
+										<!-- Image link -->
+										<a >
+											<img src="img/items/2.png" class="img-responsive" alt="" />
+										</a>
+										<!-- portfolio caption -->
+										<div class="s-caption">
+											<!-- heading and paragraph -->
+											<h4><a href="#">Finibus Bonorum</a></h4>
+											<p> These cool products were made by creative minds.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="s-item">
+										<a >
+											<img src="img/items/3.png" class="img-responsive" alt="" />
+										</a>
+										<div class="s-caption">
+											<h4><a href="#">Finibus Bonorum</a></h4>
+											<p> These cool products were made by creative minds.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="s-item">
+										<a >
+											<img src="img/items/4.png" class="img-responsive" alt="" />
+										</a>
+										<div class="s-caption">
+											<h4><a href="#">Finibus Bonorum</a></h4>
+											<p> These cool products were made by creative minds.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="s-item">
+										<a >
+											<img src="img/items/5.png" class="img-responsive" alt="" />
+										</a>
+										<div class="s-caption">
+											<h4><a href="#">Finibus Bonorum</a></h4>
+											<p> These cool products were made by creative minds.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="row">
+								<div class="col-md-3 col-sm-6">
+									<div class="s-item">
+										<a >
+											<img src="img/items/6.png" class="img-responsive" alt="" />
+										</a>
+										<div class="s-caption">
+											<h4><a href="#">Finibus Bonorum</a></h4>
+											<p> These cool products were made by creative minds.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="s-item">
+										<a >
+											<img src="img/items/7.png" class="img-responsive" alt="" />
+										</a>
+										<div class="s-caption">
+											<h4><a href="#">Finibus Bonorum</a></h4>
+											<p> These cool products were made by creative minds.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="s-item">
+										<a >
+											<img src="img/items/8.png" class="img-responsive" alt="" />
+										</a>
+										<div class="s-caption">
+											<h4><a href="#">Finibus Bonorum</a></h4>
+											<p> These cool products were made by creative minds.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="s-item">
+										<a >
+											<img src="img/items/9.png" class="img-responsive" alt="" />
+										</a>
+										<div class="s-caption">
+											<h4><a href="#">Finibus Bonorum</a></h4>
+											<p> These cool products were made by creative minds.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					  <!-- Controls -->
+					<a class="left c-control" href="#item-carousel" data-slide="prev">
+						<i class="fa fa-chevron-left"></i>
+					</a>
+					<a class="right c-control" href="#item-carousel" data-slide="next">
+						<i class="fa fa-chevron-right"></i>
+					</a>
+
+				</div>
+				  
+               </div>
+            </div>
+         </div>
+      </div>
+			
+      <!-- Recent posts Ends -->		
+           
+      
+      <!-- CTA Starts -->
+      <div class="blocky">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="cta">
+                     <div class="row">
+                        <div class="col-md-8 col-sm-8">
+                           <h5>Mobiles | Laptops | Watches | Books</h5>
+                        </div>
+                     </div>
+                  </div>
+               </div>               
+            </div>
+         </div>
+      </div>
+      <!-- CTA Ends -->
+      
+      
+      <!-- Footer starts -->
+      <footer>
+         <div class="container">
+         
+               <div class="row">
+
+                        <div class="col-md-4 col-sm-4">
+                           <div class="fwidget">
+                           
+                              <h4>Sona<span class="color">'</span>Bazzar</h4>
+                              <hr />
+                              <p>Sona  College of Technology, one of the top ranking engineering colleges in India, has achieved global identity through its involvement in research in recent technology and successful completion of projects and products. </p>
+                              
+                              <div class="social">
+                                 <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                 <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                 <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                                 <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                 <a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a>
+                              </div>
+                           </div>
+                       </div>
+
+                       <div class="col-md-4 col-sm-4">
+                         <div class="fwidget">
+                           <h4>Categories</h4>
+                           <hr />
+                           <ul>
+                             <li><a href="#">Department</a></li>
+                             <li><a href="#">Students</a></li>
+                             <li><a href="#">Career</a></li>
+                             <li><a href="#">Bazzar Details</a></li>
+                             <li><a href="#">Shop Details</a></li>
+                           </ul>
+                         </div>
+                       </div>        
+
+                       
+
+                       <div class="col-md-4 col-sm-4">
+                         <div class="fwidget">
+                           
+                           <h4>Get In Touch</h4>
+                           <hr />
+                           <div class="address">
+                              <p><i class="fa fa-home color contact-icon"></i> Junction Main Road,</p>
+                              <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Salem - 636 005,</p>
+                              <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tamilnadu, India.</p>
+                              <p><i class="fa fa-phone color contact-icon"></i> Ph : 91 - 427 - 2443545, 4099999 </p>
+                              <p><i class="fa fa-envelope color contact-icon"></i> <a href="mailto:remodinesh77@gmail.com">remodinesh77@gmail.com</a></p>
+                           </div>
+                           
+                         </div>
+                       </div>
+
+                     </div>
+
+         
+         
+            <hr />
+            
+            <div class="copy text-center">
+               Copyright 2013 &copy; - <a href="http://sonatechbazzar.azurewebsites.net/">Sona Bazzar - Dinesh Company</a>
+            </div>
+         </div>
+      </footer>
+      <!-- Footer ends -->
+      
+      <!-- Scroll to top -->
+      <span class="totop"><a href="#"><i class="fa fa-chevron-up"></i></a></span> 
+      
+		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+		<script src="js/jquery.themepunch.plugins.min.js"></script>
+		<script src="js/jquery.themepunch.revolution.min.js"></script>
+		<!-- Dropdown menu -->
+		<script src="js/ddlevelsmenu.js"></script> 
+		<!-- Countdown -->
+		<script src="js/jquery.countdown.min.js"></script>    
+		<!-- jQuery Navco -->
+		<script src="js/jquery.navgoco.min.js"></script>
+		<!-- Filter for support page -->
+		<script src="js/filter.js"></script>         
+		<!-- Respond JS for IE8 -->
+		<script src="js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="js/html5shiv.js"></script>
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+	</body>	
+</html>
